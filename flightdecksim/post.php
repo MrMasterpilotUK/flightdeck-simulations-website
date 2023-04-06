@@ -9,7 +9,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Add your validation logic here
 
     // Send an email to the website administrator
-    $to = "martim.rui8@gmail.com";
+    $to = "applications@flightdecksim.com";
     $subject = "New Tester Application";
     $message = "Name: $name\nEmail: $email\nDiscord Username: $discord\n\nWhy do you want to be a tester?\n$why_tester";
     $headers = "From: $email";
